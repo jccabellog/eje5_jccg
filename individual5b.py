@@ -13,7 +13,7 @@ sandwiches_terminados =[]
 cont=0
 for n in range(0,len(ordenes_de_sandwiches)):   
     for i in ordenes_de_sandwiches[n]:
-        print("Su sandwich de ",i, " ya está preparado, favor esperar. \n")
+        print("Su sandwich de ",i, " se está preparando, por favor espere. \n")
        # tiempo_espera = random.randint(1,2)
        # time.sleep(tiempo_espera)
         sandwiches_terminados.append(i)
